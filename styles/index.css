@@ -1,8 +1,21 @@
+/*@import url('https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight');*/
+
 body {
-  font-family: 'Hind', sans-serif;
-/*   font-family: 'Zilla Slab Highlight', cursive; */
-  background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    font-family: 'Hind', sans-serif;
+    /*font-family: 'Zilla Slab Highlight', cursive;*/
+    /*-webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;*/
 }
+
+/*@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}*/
+
 
 h1 {
   font-size: 60px;
@@ -39,5 +52,5 @@ hr.style17:before {
 }
 
 h4 {
-    font-family: 'Hind', sans-serif;
+  font-family: 'Hind', sans-serif;
 }
