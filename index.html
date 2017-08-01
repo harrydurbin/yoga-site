@@ -8,16 +8,26 @@
 
   <!--  Styles  -->
   <link rel="stylesheet" href="styles/index.css">
+  <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+  <script src="jquery-ui/external/jquery/jquery.js"></script>
+  <script src="jquery-ui/jquery-ui.min.js"></script> -->
+
   <style>
     h2 {
         background-color: #FFFFFF;
-        font-family: 'Hind', sans-serif;
+        font-family: 'Poiret One', cursive;
+        /*font-family: 'Hind', sans-serif;*/
     }
-    h1 {
-        font-family: 'Zilla Slab Highlight', cursive;
+    h1,h3,h4 {
+        font-family: 'Poiret One', cursive;
+        /*font-family: 'Zilla Slab Highlight', cursive;*/
       }
   </style>
 
@@ -25,28 +35,27 @@
 
 <body>
 
-<!-- Scripts -->
-<script src="scripts/index.js"></script>
+
 
   <div class="container">
-    <h1 class="text-center">
-      </br>Ashtanga Yoga with Margarita</br><img class="img-responsive img-circle img-thumbnail" src="static/img/meditating.jpg"></h1>
+    <h1 class="text-center header">
+    </br>Ashtanga Yoga with Margarita</br></br><img class="img-responsive img-circle img-thumbnail" src="static/img/meditating.jpg" style="width:40%"></br></br></h1>
   </div>
 
   <hr class="style17">
 
   <div class="container">
-    <div id="lt-circle" class="row center-block">
-      <div class="col-sm-4 text-center">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbi-nwbZOPSTjDdiobCkfzhbdz-E81sKfC-79jB8nga2-lTxMT">
+    <div class="row center-block">
+      <div class="col-sm-4 text-center animatedParent">
+        <img class = "animated bounceIn" id="ltcircle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbi-nwbZOPSTjDdiobCkfzhbdz-E81sKfC-79jB8nga2-lTxMT">
         <h2 class="text-center"> mind </h2>
       </div>
-      <div class="col-sm-4 text-center">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwBZcBbF_7tBDPieuQVMnkSsENEPe-R4JlSreHMvTTg9gpr8lOBQ">
+      <div class="col-sm-4 text-center animatedParent">
+        <img class = "animated bounceIn" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwBZcBbF_7tBDPieuQVMnkSsENEPe-R4JlSreHMvTTg9gpr8lOBQ">
         <h2 class="text-center"> body </h2>
       </div>
-      <div class="col-sm-4 text-center">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-wau2jMdAzJ2YQYUvH2uMrhuCk6rESOtYWV8wdUx1f9LmQoFp">
+      <div class="col-sm-4 text-center animatedParent">
+        <img class = "animated bounceIn" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-wau2jMdAzJ2YQYUvH2uMrhuCk6rESOtYWV8wdUx1f9LmQoFp">
   <!--       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDFdnoIHieJtTqGOcxWbw_eKjcTf3veGX3nQ2EoDa8c87HCvb7"> -->
         <h2 class="text-center"> spirit </h2>
       </div>
@@ -57,13 +66,13 @@
 
   <div class="container">
     <div class="row center-block">
-      <div class="col-sm-6 text-center">
+      <div class="col-sm-6 text-center animatedParent">
         <img class="img-responsive img-rounded img-thumbnail" src="static/img/posing.jpg">
       </div>
       <div class="col-sm-6 text-justify">
-        <h4> Hi, my name is Margarita. I have been practicing Ashtanga Yoga for 5 years. I first learned about Ashtanga while vacationing in Costa Rica, and I immediately feel in love with it. I enjoy practicing on my own and to help teach others. To share my love of yoga, I am offering invidual and group classes in Santiago. Contact me if interested to find out more details.
-        </h4>
-        <a class="btn btn-primary btn-md" href="tel:555-555-5555" style="padding:5px;background-color:rgba(0,0,238,.5)">
+        <h3> Hi, my name is Margarita. I have been practicing Ashtanga Yoga for 5 years. I first learned about Ashtanga while vacationing in Costa Rica, and I immediately feel in love with it. I enjoy practicing on my own and to help teach others. To share my love of yoga, I am offering invidual and group classes in Santiago. Contact me if interested to find out more details.
+        </h3>
+        <a class="btn btn-primary btn-md" href="tel:PHONE" style="padding:5px;background-color:rgba(0,0,238,.5)">
      <span class="glyphicon glyphicon-earphone" style="padding-left:5px; padding-right:5px;"></span>
         </a>
         <a class="btn btn-primary btn-md" href="mailto:EMAILADDRESS" style="padding:5px;background-color:rgba(0,0,238,.5)">
@@ -74,11 +83,15 @@
   </div>
   <hr class="style17">
   <div>
-      <h5 class = "text-center">
-        | hjd © 2017 |
-      </h5>
+      <h4 class = "text-center">
+        | 2017 |
+      </h4>
   </div>
 
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src='js/css3-animate-it.js'></script>
 
 </body>
 </html>

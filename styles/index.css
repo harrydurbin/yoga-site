@@ -1,23 +1,27 @@
 
 body {
     background-color: #FFFFFF;
-    font-family: 'Hind', sans-serif;
+    font-family: 'Poiret One', cursive;
+    /*font-family: 'Hind', sans-serif;*/
     /*font-family: 'Zilla Slab Highlight', cursive;*/
 }
 
 
-h1 {
-  font-size: 60px;
+.header {
+  font-size: 4em;
+  color: white;
+  /*background-color: green;*/
+  text-shadow: 2px 2px 4px #000000;
   font-color: #FFFFFF;
 /*   background-position: 0 -1000px; */
   background-size: 100% 100%;
-  background-image: url("http://poweredgeyoga.com/wp-content/uploads/2016/10/cropped-PEY_Tree_Banner-e1476292648585.jpeg");
-  background-repeat: no-repeat;
+  background-image: url("../static/img/leaf.jpeg");
+  /*background-repeat: no-repeat;*/
   background-position: center;
-/*   -webkit-background-size: contain; */
-/*   -moz-background-size: contain;
-  -o-background-size: contain; */
-/*   background-size: contain;   */
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+   background-size: contain;
 
 }
 
@@ -41,5 +45,6 @@ hr.style17:before {
 }
 
 h4 {
-  font-family: 'Hind', sans-serif;
+  font-family: 'Poiret One', cursive;
+  /*font-family: 'Hind', sans-serif;*/
 }
